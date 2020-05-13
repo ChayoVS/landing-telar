@@ -7,13 +7,22 @@ p {
 h2 {
     color: #A8D42E;
     font-size: 22px;
+    text-align: center;
 }
 
 p {
     color: #4F424B;
     font-size: 18px;
 }
-
+button{
+     width: 120px;
+     height: 35px;
+     background-color:#A8D42E ;
+     border-radius: 8px;
+     border: none;
+     color: white;
+     font-size: 15px;
+}
 .container-texto {
     width: 80%;
     height: 3450px;
@@ -25,55 +34,81 @@ p {
 }
 
 .text-1 {
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: auto;
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translateX(-50%) translateY(-1100%);
-    text-align: center;
+    transform: translateX(-50%) translateY(-550%);
+    text-align: justify;
+    font-weight: normal;
 }
 
 .text-2 {
     width: 400px;
-    height: 100px;
+    height: auto;
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translateX(-30%) translateY(-590%);
-    text-align: center;
+    transform: translateX(-30%) translateY(-280%);
+    text-align: justify;
+    font-weight: normal;
 }
 
 .text-3 {
     width: 400px;
-    height: 100px;
+    height: auto;
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translateX(-70%) translateY(200%);
-    text-align: center;
+    transform: translateX(-70%) translateY(60%);
+    text-align: justify;
+    font-weight: normal;
 }
 
 .text-4 {
     width: 300px;
-    height: 100px;
+    height: auto;
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translateX(30%) translateY(850%);
-    text-align: center;
+    transform: translateX(30%) translateY(308%);
+    text-align: justify;
+    font-weight: normal;
 }
 
 .text-5 {
     width: 300px;
-    height: 100px;
+    height: auto;
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translateX(-20%) translateY(1500%);
-    text-align: center;
+    transform: translateX(-20%) translateY(750%);
+    text-align: justify;
+    font-weight: normal;
+}
+.foto-ciclo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(70%) translateY(590%);
+    z-index:1;
 }
 
+.foto-mapa{
+    width: 160px;
+    height: 130px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-120%) translateY(1950%);
+    z-index:1;
+}
+.foto-mapa img{
+     width: 150px;
+}
 .container-logo {
     margin-right: 10%;
     margin-top: 10%;
@@ -82,7 +117,6 @@ p {
     justify-content: space-between;
     width: 100%;
 }
-
 .logo-img {
     width: 40%;
     align-items: center;
